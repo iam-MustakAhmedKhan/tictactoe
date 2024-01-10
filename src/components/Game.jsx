@@ -20,7 +20,6 @@ const Game = () => {
     const jumpto = (move) => {
         setCurrentMove(move);
         setXIsNext(move%2==0)
-        
     }
 
     const moves = history.map((h, move) => {
